@@ -1,16 +1,13 @@
-# Nadia_Yousaf_Portfolio
-Modern and responsive portfolio website built with HTML, CSS, and JavaScript.
 
-## 📸 Portfolio Preview
-
+Modern and Responsive Website build with Html, css and Javascript.
 ### Homepage
-![Homepage](assets/Homepage.png)
+![Homepage](nadia_portfolio/assets/Homepage.png)
 
 ### Projects Section
-![Projects](assets/Projects.png)
+![Projects](nadia_portfolio/assets/Projects.png)
 
 ### Skills Section
-![Skills](assets/Skills.png)
+![Skills](nadia_portfolio/assets/Skills.png)
 
 ### Contact Section
-![Contact](assets/Contact.png)
+![Contact](nadia_portfolio/assets/Contact.png)
