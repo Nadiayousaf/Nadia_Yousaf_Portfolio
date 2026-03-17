@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Nadia Yousaf — Python Developer</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">NY</div>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="theme-btn" onclick="toggleTheme()">☀ Light</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <canvas id="particles"></canvas>
+  <div class="hero-content">
+  <h1 class="hero-name">Nadia Yousaf</h1>
+    <p class="hero-title">Python Developer &nbsp;|&nbsp; Problem Solver &nbsp;|&nbsp; Full Stack Developer</p>
+    <p class="hero-desc">Crafting clean, modular Python applications and full-stack solutions with a passion for elegant architecture and thoughtful problem-solving.</p>
+    <a href="#contact" class="hero-cta">Get in Touch</a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="section-label reveal">Expertise</div>
+  <h2 class="section-title reveal">Skills &amp; <span>Technologies</span></h2>
+  <div class="grid" id="skillsGrid"></div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label reveal">Work</div>
+  <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+  <div class="grid" id="projGrid"></div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="section-label reveal">Journey</div>
+  <h2 class="section-title reveal">Professional <span>Experience</span></h2>
+  <div class="timeline" id="timeline"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-label reveal" style="text-align:center">Let's Connect</div>
+  <h2 class="section-title reveal" style="text-align:center">Get in <span>Touch</span></h2>
+  <div class="contact-grid reveal">
+    <a class="contact-card" href="mailto:nadiayousaf031@gmail.com">
+      <span class="ci">✉</span>
+      <span class="cl"><span class="ct">Email</span><span class="cv">nadiayousaf031@gmail.com</span></span>
+    </a>
+    <a class="contact-card" href="tel:+9203020898263">
+      <span class="ci">📞</span>
+      <span class="cl"><span class="ct">Phone</span><span class="cv">+92 030 2089 8263</span></span>
+    </a>
+    <a class="contact-card" href="https://www.linkedin.com/in/nadia-yousaf-534096380" target="_blank">
+      <span class="ci">💼</span>
+      <span class="cl"><span class="ct">LinkedIn</span><span class="cv">nadia-yousaf-534096380</span></span>
+    </a>
+    <a class="contact-card" href="https://github.com/Nadiayousaf" target="_blank">
+      <span class="ci">🐙</span>
+      <span class="cl"><span class="ct">GitHub</span><span class="cv">Nadiayousaf</span></span>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-copy">© 2025 Nadia Yousaf — Python Developer</span>
+  <div class="footer-links">
+    <a href="mailto:nadiayousaf031@gmail.com" title="Email">✉</a>
+    <a href="https://github.com/Nadiayousaf" target="_blank" title="GitHub">⌨</a>
+    <a href="https://www.linkedin.com/in/nadia-yousaf-534096380" target="_blank" title="LinkedIn">💼</a>
+  </div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal" onclick="closeModal(event)">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="js/particles.js"></script>
+<script src="js/skills.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/experience.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
