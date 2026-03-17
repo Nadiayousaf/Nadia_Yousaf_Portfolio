@@ -1,6 +1,6 @@
 # Nadia Yousaf — Portfolio Website
 
-A modern, fully responsive personal portfolio for **Nadia Yousaf**, Python Developer.
+A modern, fully responsive personal portfolio.
 
 ---
 
